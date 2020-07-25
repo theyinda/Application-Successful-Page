@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+          box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #573F7B;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  min-height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(../img/bg.svg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/bg.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.box{
+  background: #F5F4FA;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  margin: 90px auto 40px auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  
+}
+.cancel{
+  position: absolute;
+  right: 10px;
+  top:-60px;
+  border: 0;
+  background: transparent;
+}
+.icon img{
+  width: 150px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragraph{
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.luck{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 40px;
+
+}
